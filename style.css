@@ -95,6 +95,123 @@ button {
     cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add this to style.css */
+#gallery {
+    text-align: center;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+}
+
+.carousel-btn:hover {
+    color: #55acee; /* Change to the color of your choice for hover effect */
+}
+
+.carousel-btn:first-child {
+    left: 10px;
+}
+
+.carousel-btn:last-child {
+    right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add this to style.css */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile-picture img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
 footer {
     background-color: #333;
     color: white;
