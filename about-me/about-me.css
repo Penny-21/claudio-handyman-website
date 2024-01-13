@@ -25,3 +25,36 @@ body {
     max-width: 80%;
     height: auto;
 }
+
+
+/* Add this CSS for the big card */
+.big-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.big-card h2 {
+    font-family: 'cursive';
+    color: #495057;
+}
+
+.big-card p {
+    font-family: 'cursive';
+    color: #6c757d;
+}
+
+.text-center img {
+    width: 300px;
+    height: 300px;
+}
+
+.text-center h1 {
+    color: antiquewhite;
+}
+
+.text-center h1:hover {
+    color: darkorange;
+    transition: ease-in 0.5s;
+}
