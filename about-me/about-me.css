@@ -1,0 +1,27 @@
+body {
+    background-image: url('/bckgs/Backg-1.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000000; /* Set text color to ensure readability on the background image */
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.img-container {
+    max-width: 700px;
+}
+
+/* Add this CSS for the image banner */
+.image-banner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.image-banner img {
+    max-width: 80%;
+    height: auto;
+}
