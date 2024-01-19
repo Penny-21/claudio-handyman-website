@@ -27,7 +27,7 @@ body {
 }
 
 
-/* Add this CSS for the big card */
+
 .big-card {
     background-color: #f8f9fa;
     padding: 20px;
@@ -45,16 +45,34 @@ body {
     color: #6c757d;
 }
 
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img {
+    border-radius: 50%;
+    /* Make the icons circular */
+}
+
+.social-icons:hover {
+    transform: scale(1.2);
+}
+
 .text-center img {
     width: 300px;
     height: 300px;
 }
 
-.text-center h1 {
+/* .text-center h1 {
     color: antiquewhite;
 }
 
 .text-center h1:hover {
     color: darkorange;
     transition: ease-in 0.5s;
-}
+} */
