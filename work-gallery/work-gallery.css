@@ -28,6 +28,10 @@ body {
     height: auto;
 }
 
+h1 {
+    color: antiquewhite;
+}
+
 
 
 /* Add this CSS for the responsive video container */
