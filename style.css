@@ -10,7 +10,38 @@ body {
 
 .container {
     max-width: 550px;
+    margin-bottom: 40px;
 }
+
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+h1,
+h2,
+h5 {
+    color: #ffffff;
+    /* White or a color that contrasts your background */
+    font-family: 'Arial', sans-serif;
+    /* Clean, modern fonts */
+}
+
+p,
+span {
+    color: #ccc;
+    /* Lighter text for body content */
+    font-family: 'Verdana', sans-serif;
+}
+
 
 .img-container {
     max-width: 700px;
@@ -26,6 +57,22 @@ body {
 .image-banner img {
     max-width: 80%;
     height: auto;
+}
+
+
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-item img {
+    transition: transform 0.5s ease;
+}
+
+.carousel-item:hover img {
+    transform: scale(1.05);
 }
 
 
@@ -64,4 +111,15 @@ body {
 
 .social-icons:hover {
     transform: scale(1.2);
+}
+
+
+
+
+.footer {
+    padding: 20px;
+    background-color: #333;
+    /* Lighter than pure black */
+    color: #ccc;
+    text-align: center;
 }
