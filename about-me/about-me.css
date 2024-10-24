@@ -8,6 +8,7 @@ body {
 
 .container {
     max-width: 1440px;
+    padding: 0 20px; /* Added padding for mobile devices */
 }
 
 .img-container {
@@ -35,20 +36,24 @@ body {
 
 
 .big-card {
-    background-color: #f8f9fa;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent overlay */
     padding: 20px;
     border-radius: 10px;
     margin-top: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
 }
 
 .big-card h2 {
-    font-family: 'cursive';
+    font-family: 'cursive', sans-serif;
     color: #495057;
+    font-size: 28px; /* Adjusted font size */
 }
 
 .big-card p {
-    font-family: 'cursive';
+    font-family: 'Arial', sans-serif;
     color: #6c757d;
+    font-size: 16px; /* Improved readability */
+    line-height: 1.6; /* Better text spacing */
 }
 
 

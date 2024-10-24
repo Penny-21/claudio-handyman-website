@@ -30,8 +30,20 @@ body {
     height: auto;
 }
 
-h1 {
-    color: antiquewhite;
+h1,
+h2,
+h5 {
+    color: #ffffff;
+    /* White or a color that contrasts your background */
+    font-family: 'Arial', sans-serif;
+    /* Clean, modern fonts */
+}
+
+p,
+span {
+    color: #ccc;
+    /* Lighter text for body content */
+    font-family: 'Verdana', sans-serif;
 }
 
 
@@ -100,7 +112,19 @@ h1 {
 
 
 
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
 
+.carousel-item img {
+    transition: transform 0.5s ease;
+}
+
+.carousel-item:hover img {
+    transform: scale(1.05);
+}
 
 
 
